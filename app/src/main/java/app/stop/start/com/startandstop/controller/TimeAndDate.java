@@ -7,7 +7,8 @@ import java.util.Date;
 public class TimeAndDate {
 
     public static long getTime() {
-        Date date = new Date();
+        Date date;
+		date = new Date();
         
         return date.getTime();
     }
